@@ -2,6 +2,8 @@
 //inicializar un arreglo vacio para el carrito de compras
 let carrito=[];
 
+var total;
+
 //agregamos los productos que se van a utilizar dentro del arreglo
 
 let camisa= {
@@ -41,7 +43,7 @@ function mostrarProductos(){
 
 //funcion para mostrar el total del carrito
 
-//funcion que maneja el flujo del programa
+//funcion que maneja el flujo del programas
 function iniciaPrograma(){
     let continuar = true;
 
